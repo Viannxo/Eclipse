@@ -1,0 +1,3 @@
+br\com\loja\Principal.class
+br\com\loja\dao\ProdutoDAO.class
+br\com\loja\model\Produto.class
