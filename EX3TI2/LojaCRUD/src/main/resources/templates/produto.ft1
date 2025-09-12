@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Produtos</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Produtos</h1>
+            <a href="/add" class="btn-adicionar">Adicionar novo produto</a>
+            <table border="1" style="width:100%; margin-top:15px;">
+                <tr>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                </tr>
+                <#list produtos as produto>
+                <tr>
+                    <td>${produto.nome}</td>
+                    <td>${produto.quantidade}</td>
+                    <td>${produto.preco}</td>
+                </tr>
+                </#list>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

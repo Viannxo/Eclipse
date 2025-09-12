@@ -3,7 +3,6 @@ package br.com.loja.dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-
 import br.com.loja.model.Produto;
 
 public class ProdutoDAO {
@@ -26,7 +25,7 @@ public class ProdutoDAO {
 
     public List<Produto> listar() {
         List<Produto> produtos = new ArrayList<>();
-        String sql = "SELECT * FROM produtos";
+        String sql = "SELECT * FROM produtos ORDER BY id";
         try (Connection conn = DriverManager.getConnection(url, user, password);
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {

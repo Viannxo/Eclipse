@@ -6,7 +6,6 @@ public class Produto {
     private int quantidade;
     private double preco;
 
-    // Construtores
     public Produto() {}
 
     public Produto(String nome, int quantidade, double preco) {
@@ -22,7 +21,6 @@ public class Produto {
         this.preco = preco;
     }
 
-    // Getters e Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 

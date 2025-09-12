@@ -1,8 +1,7 @@
-/* Fundo da página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #000; /* fundo preto */
+    background: #000;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -10,35 +9,31 @@ body {
     min-height: 100vh;
 }
 
-/* Container central - para garantir centralização vertical e horizontal */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 20px; /* espaçamento nas laterais em telas pequenas */
+    padding: 20px;
     box-sizing: border-box;
 }
 
-/* Card principal */
 .card {
-    background: #001f3f; /* azul marinho */
+    background: #001f3f;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
     text-align: center;
-    max-width: 900px; /* melhor acomodar a grid */
+    max-width: 900px;
     width: 100%;
     box-sizing: border-box;
 }
 
-/* Títulos */
 h1, h2 {
     margin-bottom: 15px;
     color: #fff;
 }
 
-/* Formulário */
 .form-container {
     display: flex;
     flex-direction: column;
@@ -67,7 +62,6 @@ input {
     box-sizing: border-box;
 }
 
-/* Botões */
 button, .btn-adicionar {
     padding: 10px 15px;
     background: #007bff;
@@ -85,7 +79,6 @@ button:hover, .btn-adicionar:hover {
     background: #0056b3;
 }
 
-/* Link voltar */
 .link-voltar {
     display: block;
     margin-top: 20px;
@@ -96,41 +89,8 @@ button:hover, .btn-adicionar:hover {
 .link-voltar:hover {
     text-decoration: underline;
 }
-
-/* Grid de produtos */
-.produtos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
-}
-
-/* Cada card de produto */
-.produto-card {
-    background: #001f3f; /* azul marinho */
-    border: 1px solid #007bff; /* borda azul */
-    border-radius: 8px;
-    padding: 15px;
-    text-align: left;
-    color: #fff;
-    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.5);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.produto-card h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #00aced;
-}
-
-.produto-card p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #ccc;
-}
-
-.produto-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.7);
-    border-color: #0056b3;
 }

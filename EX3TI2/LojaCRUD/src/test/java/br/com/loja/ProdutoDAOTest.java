@@ -7,9 +7,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
-
-import br.com.loja.model.Produto;
 import br.com.loja.dao.ProdutoDAO;
+import br.com.loja.model.Produto;
 
 import static org.junit.Assert.*;
 
@@ -20,7 +19,7 @@ public class ProdutoDAOTest {
     @Before
     public void setUp() {
         dao = new ProdutoDAO();
-        limparTabela(); // Limpa os dados antes de cada teste
+        limparTabela();
     }
 
     private void limparTabela() {
