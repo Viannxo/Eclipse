@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Pets</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Pets do Cliente</h1>
+    <a href="/cliente/list">Voltar para Clientes</a>
+    <br><br>
+    <#if pets?has_content>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Espécie</th>
+                    <th>Raça</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+            <#list pets as pet>
+                <tr>
+                    <td>${pet.id}</td>
+                    <td>${pet.nome}</td>
+                    <td>${pet.especie}</td>
+                    <td>${pet.raca}</td>
+                    <td>${pet.idade}</td>
+                </tr>
+            </#list>
+            </tbody>
+        </table>
+    <#else>
+        <p>Este cliente ainda não tem pets cadastrados.</p>
+    </#if>
+</body>
+</html>

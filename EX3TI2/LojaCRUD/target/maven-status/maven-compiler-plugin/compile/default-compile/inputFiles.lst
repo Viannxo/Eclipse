@@ -1,3 +1,8 @@
-C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\loja\dao\ProdutoDAO.java
-C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\loja\model\Produto.java
-C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\loja\Principal.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\Aplicacao.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\ConnectionFactory.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\dao\ClienteDAO.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\dao\PetDAO.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\model\Cliente.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\model\Pet.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\service\ClienteService.java
+C:\Users\eduar\OneDrive\Área de Trabalho\github\Eclipse\EX3TI2\LojaCRUD\src\main\java\br\com\petshop\service\PetService.java

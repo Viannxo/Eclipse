@@ -1,3 +1,8 @@
-br\com\loja\Principal.class
-br\com\loja\dao\ProdutoDAO.class
-br\com\loja\model\Produto.class
+br\com\petshop\service\ClienteService.class
+br\com\petshop\ConnectionFactory.class
+br\com\petshop\model\Cliente.class
+br\com\petshop\dao\PetDAO.class
+br\com\petshop\service\PetService.class
+br\com\petshop\model\Pet.class
+br\com\petshop\Aplicacao.class
+br\com\petshop\dao\ClienteDAO.class

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Pet</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Editar Pet</h1>
+    <form action="/pet/update/${pet.id}" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="${pet.nome}" required><br><br>
+
+        <label for="especie">Espécie:</label>
+        <input type="text" id="especie" name="especie" value="${pet.especie}" required><br><br>
+
+        <label for="raca">Raça:</label>
+        <input type="text" id="raca" name="raca" value="${pet.raca}"><br><br>
+        
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" value="${pet.idade}" required><br><br>
+
+        <button type="submit">Atualizar</button>
+    </form>
+    <br>
+    <a href="/cliente/list">Voltar</a>
+</body>
+</html>
